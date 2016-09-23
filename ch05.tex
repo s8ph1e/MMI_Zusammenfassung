@@ -2,7 +2,6 @@
 \textbf{Physical Models -- Fitts' Law}:\\
 Physical models can predict efficiency based on the physical aspects of a design. They calculate the time it takes to perform actions such as targeting a screen object and clicking on it.
 Fitts' law can be used to determine the size and location of a screen object. It states that the time it takes to hit a target is a function of the size of the target and the distance to that target:
-
 \begin{itemize}
 \item Index of Difficulty (ID): Quantifies the difficulty of a (motor pointing) task based on width and distance
 \begin{align*}
@@ -26,7 +25,7 @@ $\rightarrow$ Fitts' law (1954) predicts that the time to acquire a target is in
 In practice $A$ corresponds to the distance from starting position, $W$ to the size of target along the line of motion. Common parameter values (e.g. for a mouse) are $a=50ms, b=150ms/bit$.
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.3\textwidth]{img/ch05_fitt1.png}
+	\includegraphics[width=.2\textwidth]{img/ch05_fitt1.png}
 	\caption{Fitts' law in practice.}
 	\label{fitt1}
 \end{figure}
@@ -69,8 +68,7 @@ The total decision time in practice amounts to
 \begin{align*}
 T = a + b \log_2(n+1)
 \end{align*}
-where $n$ is the number of choices. The coefficients are empirically determined from experimental design. Raskin (2000) suggests that $a= 50 ms$ and $b=150 ms/bit$ are sufficient place holders for ``back-of-the-envelope'' approximations.
-
+where $n$ is the number of choices. The coefficients are empirically determined from experimental design. Raskin (2000) suggests that $a= 50 ms$ and $b=150 ms/bit$ are sufficient place holders for ``back-of-the-envelope'' approximations.\\\\
 \textbf{Power Law of Practice}:\\
 Users get better every time they use a system. Neglecting disturbance and decay effects
 \begin{align*}
@@ -88,11 +86,9 @@ People use a mental model to have a basic understanding of what is going on. The
 \item Inconsistent: Some parts of the model may be incompatible with other parts of the system
 \item Personal: They are specific to individuals
 \end{itemize}
-However, they can be used to foster understanding and building a correct model and thus increase usability. E.g. Error Avoidance Design Guidelines exploit natural mappings between intentions and possible actions, between actions and their effects on the system state and what is perceivable, as well as between the system state and the needs, intentions and expectations of the user.\\
-
+However, they can be used to foster understanding and building a correct model and thus increase usability. E.g. Error Avoidance Design Guidelines exploit natural mappings between intentions and possible actions, between actions and their effects on the system state and what is perceivable, as well as between the system state and the needs, intentions and expectations of the user.\\\\
 \textbf{Principles of Good Design (Don Norman)}:\\
 An interface should include good mappings that show the relationship between stages. There should be a clear correlation between control element and action. A ``good'' mapping should be understandable, consistent, recognizable or quickly learnable and natural (consistent to the user's knowledge, world and domain knowledge). For example for cooking plates it would be helpful to arrange the buttons corresponding to the plates exactly like the plates themselves.\\ \\
-
 \textbf{Constraints} lead humans to build correct mental models. They guide the user to the next appropriate action or decision and also minimize the chance to make errors.
 \begin{itemize}
 \item physical constraints (dial vs. button)
@@ -100,8 +96,7 @@ An interface should include good mappings that show the relationship between sta
 \item cultural constraints (borders provided by cultural conventions, e.g. traffic signs, colours, ..)
 \item logical constraints (restrictions due to reasoning)
 \end{itemize}
-It is good (for safety) to add some redundancy, as constraints can only work at their own level (e.g. having plugs color- and shape-coded in safety-critical situation).\\
-
+It is good (for safety) to add some redundancy, as constraints can only work at their own level (e.g. having plugs color- and shape-coded in safety-critical situation).\\\\
 \textbf{Affordances (Gibson)}:\\
 To build a mental concept of a system we need to interpret symbols and components. This can be seen as the functionality of the device and what we actually want to do\\
 $\rightarrow$ Semantic and Articulator Distance\\
@@ -109,7 +104,7 @@ Don Norman developed this concept further picking up the idea of affordances. It
 -- Make usable properties visible\\
 -- Use natural associations\\
 -- Give Feedback\\
-Objects and environments imply their usage through Gestalt, e.g. door handle animates to press, cup to drink $\rightarrow$ Partially learned!\\
+Objects and environments imply their usage through Gestalt, e.g. door handle animates to press, cup to drink $\rightarrow$ Partially learned!\\\\
 \textbf{Normans Evaluation/Execution Action Cycle}:
 \begin{figure}[h!]
 	\centering
@@ -135,7 +130,6 @@ $\rightarrow$ Good design minimizes the Gulf of Execution
 You may check how easy you are able to determine the function, determine what actions are possible, determine mapping from intention to physical movement, perform the action, determine whether the system in the desired state, determine mapping from system state to interpretation and determine what state the system is in. The Gulf of Evaluation reflects the amount of effort needed to interpret the state of the system and how well this can be compared to the intentions. Is the information about state of the system easily accessible? Is it represented to ease matching with intensions?\\
 $\rightarrow$ Good design minimizes the Gulf of Evaluation
 \end{itemize}
-
 Example: The user wants a document written on the system in paper (the goal).\\
 Gulf of Execution: What actions are permitted by the system to achieve this goal?\\
 Gulf of Evaluation: Is the process observable? Are intermediate steps visible?\\
@@ -161,7 +155,7 @@ Implications on design:
 A \textbf{goal} is a state of the application domain that a work system wishes to achieve. Goals are specified at particular levels of abstraction. \\
 A \textbf{task} is a goal together with some ordered set of actions. Or more elaborated:
 A task is a structured set of activities required, used or believed to be necessary by an agent to achieve a goal using a particular technology. A task will often consist of subtasks where a subtask is a task at a more detailed level of abstraction. The structure of an activity may include selecting between alternative actions, performing some actions a number of times and sequencing of actions.\\
-An action is a task which has no problem solving associated with it and which does not include any control structure. Actions and task will be different for different people.
+An action is a task which has no problem solving associated with it and which does not include any control structure. Actions and task will be different for different people.\\
 \textbf{Task analysis} is the study of how work is achieved by tasks. It is about understanding people and how they carry out their work (part of human-centred design):
 \begin{itemize}
 \item identify a set of methods people use to carry out their work
@@ -172,14 +166,13 @@ Two main categories of task analysis methods concerned with the logic of tasks (
 Different Task Analysis methods can be sorted into four \textbf{dimensions}: notation, usability for communication, usability for modelling tasks, adaptability to new types of systems/aims/requirements. Task analysis is an integral part of System Development and undertaken several times, during analysis (independent from technology, understanding the ``essentials'', current way of doing things), design (cognitive load minimization) and evaluation (dependent on technology, degree of achievement of work).\\ \\
 In the following, two models will be discussed: Hierarchical Task Analysis (HTA), concerned with the logic of the task, and Goal-based Task Analysis (GOMS), concerned with the cognitive analysis of the task. Both models rely on Cognitive System models (see previous chapters).\\ \\ 
 \textbf{Hierarchical Task Analysis (HTA)}: 
-Graphical representation of a task structure in structure chart notation: sequence of tasks, subtasks and actions as hierarchy, actions can be repeated (iteration), alternative actions possible (selection), annotations to indicate plans (optional). This is not trivial: acquisition of task and subtask descriptions, hierarchical modelling, iterative process.
+Graphical representation of a task structure in structure chart notation: sequence of tasks, subtasks and actions as hierarchy, actions can be repeated (iteration), alternative actions possible (selection), annotations to indicate plans (optional). This is not trivial: acquisition of task and subtask descriptions, hierarchical modelling, iterative process.\\\\
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.5\textwidth]{img/ch05_hta.png}
 	\caption{HTA -- Example}
 	\label{hta}
 \end{figure}
-
 \textbf{Goal-based Task Analysis -- GOMS}: Goals, Operators, Methods, Selection Rules\\
 An application of Human Information Processing and Task Analysis/Decomposition focusing on Cognitive Load Analysis. Introduced by Card, Moran \& Newell (1983) they feature an explicit task structure:
 \begin{itemize}
@@ -195,14 +188,13 @@ CNM-GOMS -- Engineering model of user interaction:
 \item Methods (Subgoals) -- sequences of actions (operators): may be multiple methods for accomplishing same goal, e.g. shortcut key or menu selection
 \item Selections -- rules for choosing appropriate method: method predicted based on context; selection rules are separately described
 \end{itemize}
-CPM-GOMS represent Cognitive, Perceptual, Motor operators. It uses Program Evaluation Review Technique (PERT) charts which map task durations using the critical path method (CPM). It is based directly on the Model Human Processor which assumes that perceptual, cognitive, and motor processors function in parallel.
+CPM-GOMS represent Cognitive, Perceptual, Motor operators. It uses Program Evaluation Review Technique (PERT) charts which map task durations using the critical path method (CPM). It is based directly on the Model Human Processor which assumes that perceptual, cognitive, and motor processors function in parallel.\\\\
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.5\textwidth]{img/ch05_pert.png}
 	\caption{PERT chart -- Example}
 	\label{pert}
 \end{figure}
-
 \textbf{Keystroke Level Model (KLM)}: The KLM is a practical design tool that can capture and calculate the physical actions a user will have to carry out to complete specific tasks. It can be used to determine the most efficient method and its suitability for specific contexts. 
 \begin{itemize}
 \item Given:
